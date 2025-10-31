@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Muhammad Kashfur Rahman — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <span class="logo-mark">KR</span>
+        <div>
+          <div class="name">Kashfur Rahman</div>
+          <div class="role">Software Engineer · Full Stack Python Developer</div>
+        </div>
+      </div>
+
+      <nav class="nav" id="nav">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <button class="btn-toggle" id="btnToggle" aria-label="toggle menu">
+        ☰
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <h1>Hi, I'm <span class="accent">Kashfur Rahman</span></h1>
+          <p class="lead">
+            Final-year Computer Science student and Software Engineer. I build responsive web apps and AI-powered tools using Python, Flask / FastAPI, MongoDB, and modern frontend stacks.
+          </p>
+          <div class="cta-row">
+            <a class="btn primary" href="./My_Resume.pdf" target="_blank">Resume</a>
+            <a class="btn outline" href="#contact">Hire Me</a>
+          </div>
+
+          <!-- <ul class="hero-meta">
+            <li><strong>Location:</strong>Hyderabad - India</li>
+            <li><strong>Email:</strong> <a href="mailto:itskashfur@gmail.com">itskashfur@gmail.com</a></li>
+            <li><strong>Availability:</strong> Open for internships & Jobs</li>
+          </ul> -->
+        </div>
+
+        <div class="hero-photo">
+          <div class="photo-ring">
+            <!-- put your profile image at assets/profile.jpg -->
+            <img src="./Portfolio_Side_Image.png" alt="Kashfur Rahman" onerror="this.src='https://via.placeholder.com/600x600?text=Kashfur+Rahman'">
+          </div>
+          <div class="hero-badges">
+            <div>Python</div>
+            <div>Flask · FastAPI</div>
+            <div>OpenCV · ML</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section about container">
+      <h2>About</h2>
+      <div class="about-grid">
+        <p>
+          I'm a final-year Computer Science Engineering student with practical experience in backend development, machine learning prototypes, and building production-grade APIs. I enjoy converting ideas into clean, maintainable code and shipping usable products.
+        </p>
+        <ul>
+          <li>Experienced: Python, Flask, FastAPI, MongoDB</li>
+          <li>Tools: OpenCV, Pandas, NumPy, Git</li>
+          <li>Interests: AI, automation, developer tools</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="section services">
+      <div class="container">
+        <h2>Services</h2>
+        <div class="cards">
+          <div class="card">
+            <h3>Web Development</h3>
+            <p>Full-stack apps (React/Vue + Flask/FastAPI). REST & GraphQL APIs, responsive UI, deployment.</p>
+          </div>
+          <div class="card">
+            <h3>AI / ML Prototyping</h3>
+            <p>Computer Vision & ML models using OpenCV, scikit-learn and Python pipelines.</p>
+          </div>
+          <div class="card">
+            <h3>API Integration</h3>
+            <p>Payment integrations, auth flows, third-party APIs and database design with MongoDB.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section skills container">
+      <h2>Professional Skills</h2>
+      <div class="skill-grid">
+        <div class="skill">Python</div>
+        <div class="skill">Flask</div>
+        <div class="skill">FastAPI</div>
+        <div class="skill">MongoDB</div>
+        <div class="skill">OpenCV</div>
+        <div class="skill">Pandas · NumPy</div>
+        <div class="skill">HTML · CSS · JS</div>
+        <div class="skill">React</div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section projects">
+      <div class="container">
+        <h2>Selected Projects</h2>
+        <div class="project-grid">
+          <article class="project-card">
+            <img src="./Automated Attendance System.jpg" alt="Ganador AI" onerror="this.src='https://via.placeholder.com/600x350?text=Project+1'">
+            <div class="project-body">
+              <h3>Ganador AI</h3>
+              <p>An AI assistant and productivity platform — automation workflows and knowledge tools.</p>
+              <div class="project-links">
+                <a href="#" class="tiny">Github</a>
+                <a href="#" class="tiny">Live</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="assets/project2.jpg" alt="Portfolio Website" onerror="this.src='https://via.placeholder.com/600x350?text=Project+2'">
+            <div class="project-body">
+              <h3>Portfolio Website</h3>
+              <p>Responsive personal portfolio built with modern CSS and smooth UX transitions.</p>
+              <div class="project-links">
+                <a href="#" class="tiny">Code</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="assets/project3.jpg" alt="PayA / Fintech" onerror="this.src='https://via.placeholder.com/600x350?text=Project+3'">
+            <div class="project-body">
+              <h3>PayA — Fintech App</h3>
+              <p>Mobile-first payments prototype with secure transactions and user onboarding flows.</p>
+              <div class="project-links">
+                <a href="#" class="tiny">Case Study</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resume / Experience (simple) -->
+    <section class="section resume container">
+      <h2>Experience</h2>
+      <div class="timeline">
+        <div class="entry">
+          <h4>Software Engineer Intern — Wize Products</h4>
+          <span class="meta">2024 — Present</span>
+          <p>Worked on backend services and integrations.</p>
+        </div>
+        <div class="entry">
+          <h4>Freelance / Personal Projects</h4>
+          <span class="meta">2022 — 2024</span>
+          <p>Multiple projects including AI prototypes and web applications.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section contact container">
+      <h2>Let's Talk</h2>
+      <div class="contact-grid">
+        <form id="contactForm" class="contact-form" action="#" method="post" onsubmit="return false;">
+          <div class="form-row">
+            <input type="text" id="name" placeholder="Full Name" required>
+            <input type="email" id="email" placeholder="Email" required>
+          </div>
+          <input type="text" id="subject" placeholder="Subject" required>
+          <textarea id="message" rows="6" placeholder="Message" required></textarea>
+          <div class="form-foot">
+            <button class="btn primary" id="sendBtn">Send Message</button>
+            <small class="hint">Or email me at <a href="mailto:youremail@example.com">youremail@example.com</a></small>
+          </div>
+        </form>
+
+        <aside class="contact-info">
+          <div class="info-block">
+            <h4>Contact</h4>
+            <p><strong>Email:</strong> itskashfur@example.com</p>
+            <p><strong>Phone:</strong> +91 87570 57497</p>
+            <p><strong>Location:</strong> Hyderabad - India</p>
+          </div>
+
+          <div class="info-block">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="./My_Resume.pdf" target="_blank">Resume (PDF)</a></li>
+              <li><a href="https://www.github.com/itskashfur" target="_blank">GitHub</a></li>
+              <li><a href="#">LinkedIn</a></li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div>&copy; <span id="year"></span> Kashfur Rahman — All rights reserved.</div>
+      <div class="footer-links">
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
